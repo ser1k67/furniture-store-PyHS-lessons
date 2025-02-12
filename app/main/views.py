@@ -1,12 +1,38 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-# Create your views here.
+# index page
 def index(request):
     context = {
-        'title': 'main',
-        'content': ['welcome to main page', 'please log in'],
-        'is_authenticated': True
+        'title': 'Home - Главная страница',
+        'content': 'Магазин мебели HOME'
     }
 
     return render(request, 'main/index.html', context=context)
+
+# delivery and payment page
+def delivery_pay(request):
+    context = {
+        'title': 'Home - Доставка и оплата',
+        'content': 'Доставляем и оплачиваем, мы молодцы'
+    }
+
+    return render(request, 'main/delivery and payment.html', context=context)
+
+# contacts page
+def contact(request):
+    context = {
+        'title': 'Home - Контакты',
+        'content': '87023280874, serikbaynazarali@gmail.com'
+    }
+
+    return render(request, 'main/contact.html', context=context)
+
+# about page
+def about(request):
+    context = {
+        'title': 'Home - Про нас',
+        'content': 'Мы очень крутая компания по пройзводству мебели'
+    }
+
+    return render(request, 'main/about.html', context=context)
