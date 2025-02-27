@@ -5,6 +5,7 @@ from catalog.models import Categories
 
 # index page
 def index(request):
+    # добавление категорий в index
     categories = Categories.objects.all()
 
     context = {

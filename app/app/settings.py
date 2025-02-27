@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 
-from django.conf.global_settings import INTERNAL_IPS
+from django.conf.global_settings import INTERNAL_IPS, MEDIA_ROOT, MEDIA_URL
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -123,11 +123,18 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
+STATIC_URL = 'static/' #в браузере инспектор кода нажимаешь же, и там будет этот префикс url, там же не будет шаблонизатор пайтона стоять
 
-STATIC_URL = 'static/'
+STATICFILES_DIRS = [BASE_DIR / 'static'] # {% load static %} будет указывать на общую папку static
 
-STATICFILES_DIRS = [BASE_DIR / 'static']
 
+# media files
+MEDIA_URL = 'media/' #в браузере инспектор кода нажимаешь же, и там будет этот префикс url, там же не будет шаблонизатор пайтона стоять
+
+MEDIA_ROOT = BASE_DIR / 'media' #путь куда сохранить медиа
+
+
+# for django-debug-tools
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
