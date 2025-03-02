@@ -2,7 +2,6 @@ from unicodedata import category
 from django.shortcuts import render
 
 from catalog.models import Categories, Products
-from app.settings import MEDIA_URL
 
 # Create your views here.
 def catalog(request):
@@ -17,5 +16,11 @@ def catalog(request):
     return render(request, "catalog/catalog.html", context=context)
 
 
-def product(request):
-    return render(request, "catalog/product.html")
+def product(request, product_id):
+    product = Products.objects.get(id=product_id)
+
+    context = {
+        "product": product
+    }
+
+    return render(request, "catalog/product.html", context=context)
