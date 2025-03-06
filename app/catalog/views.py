@@ -1,10 +1,11 @@
 from unicodedata import category
+from django.core.paginator import Paginator
 from django.shortcuts import get_list_or_404, render
 
 from catalog.models import Categories, Products
 
 # Create your views here.
-def catalog(request, category_slug):
+def catalog(request, category_slug, page=1):
     # отображение карточек товаров по категориям
     if category_slug == "vse-tovary":
         goods = Products.objects.all()
@@ -12,9 +13,14 @@ def catalog(request, category_slug):
         categories  = Categories.objects.get(slug=category_slug)
         goods = get_list_or_404(Products.objects.filter(category_id=categories.id))
 
+    # пагинация
+    paginator = Paginator(goods, 6)
+    current_page = paginator.page(page) # возвращает обьекты выбранной страницы
+
     context = {
         "title": "Home - Каталог",
-        "goods": goods,
+        "goods": current_page,
+        "category_slug": category_slug,
     }
 
     return render(request, "catalog/catalog.html", context=context)
