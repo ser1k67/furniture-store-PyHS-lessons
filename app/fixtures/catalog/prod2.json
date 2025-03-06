@@ -1,0 +1,450 @@
+[
+    {
+        "model": "catalog.products",
+        "pk": 1,
+        "fields": {
+            "name": "Чайный столик и три стула",
+            "slug": "chajnyj-stolik-i-tri-stula",
+            "description": "Комплект из трёх стульев и дизайнерский столик для гостинной комнаты.",
+            "image": "",
+            "price": "150.00",
+            "discount": "0.00",
+            "quantity": 14,
+            "category": 7
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 2,
+        "fields": {
+            "name": "Чайный столик и два стула",
+            "slug": "chajnyj-stolik-i-dva-stula",
+            "description": "Набор из стола и двух стульев в минималистическом стиле.",
+            "image": "",
+            "price": "93.00",
+            "discount": "0.00",
+            "quantity": 9,
+            "category": 7
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 3,
+        "fields": {
+            "name": "Двухспальная кровать",
+            "slug": "dvuhspalnaya-krovat",
+            "description": "Кровать двухспальная с надголовником и вообще очень ортопедичная.",
+            "image": "",
+            "price": "670.00",
+            "discount": "0.00",
+            "quantity": 6,
+            "category": 8
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 4,
+        "fields": {
+            "name": "Кухонный стол с раковиной",
+            "slug": "kuhonnyj-stol-s-rakovinoj",
+            "description": "Кухонный стол для обеда с встроенной раковиной и стульями.",
+            "image": "",
+            "price": "365.00",
+            "discount": "0.00",
+            "quantity": 20,
+            "category": 7
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 5,
+        "fields": {
+            "name": "Кухонный стол с встройкой",
+            "slug": "kuhonnyj-stol-s-vstrojkoj",
+            "description": "Кухонный стол со встроенной плитой и раковиной. Много полок и вообще красивый.",
+            "image": "",
+            "price": "430.00",
+            "discount": "0.00",
+            "quantity": 14,
+            "category": 7
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 6,
+        "fields": {
+            "name": "Угловой диван для гостинной",
+            "slug": "uglovoj-divan-dlya-gostinoj",
+            "description": "Угловой диван, раскладывается в двухспальную кровать, для гостинной и приема гостей самое то!",
+            "image": "",
+            "price": "610.00",
+            "discount": "0.00",
+            "quantity": 10,
+            "category": 9
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 7,
+        "fields": {
+            "name": "Прикроватный столик",
+            "slug": "prikrovatnyj-stolik",
+            "description": "Прикроватный столик с двумя выдвижными ящиками (цветок не входит в комплект).",
+            "image": "",
+            "price": "55.00",
+            "discount": "0.00",
+            "quantity": 9,
+            "category": 8
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 8,
+        "fields": {
+            "name": "Диван обыкновенный",
+            "slug": "divan-obyknovennyj",
+            "description": "Диван, он же софа обыкновенная, ничего примечательного для описания.",
+            "image": "",
+            "price": "190.00",
+            "discount": "0.00",
+            "quantity": 4,
+            "category": 9
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 9,
+        "fields": {
+            "name": "Стул офисный",
+            "slug": "stul-ofisnyj",
+            "description": "Описание товара, про то какой он классный, но это стул, что тут сказать...",
+            "image": "",
+            "price": "30.00",
+            "discount": "0.00",
+            "quantity": 24,
+            "category": 10
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 10,
+        "fields": {
+            "name": "Растение",
+            "slug": "rastenie",
+            "description": "Растение для украшения вашего интерьера подарит свежесть и безмятежность обстановке.",
+            "image": "",
+            "price": "10.00",
+            "discount": "0.00",
+            "quantity": 23,
+            "category": 12
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 11,
+        "fields": {
+            "name": "Цветок стилизированный",
+            "slug": "cvetok-stilizirovannyj",
+            "description": "Дизайнерский цветок (возможно искусственный) для украшения интерьера.",
+            "image": "",
+            "price": "15.00",
+            "discount": "0.00",
+            "quantity": 38,
+            "category": 12
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 12,
+        "fields": {
+            "name": "Прикроватный столик 2",
+            "slug": "prikrovatnyj-stolik-two",
+            "description": "Столик, довольно странный на вид, но подходит для размещения рядом с кроватью.",
+            "image": "",
+            "price": "25.00",
+            "discount": "0.00",
+            "quantity": 1,
+            "category": 8
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 13,
+        "fields": {
+            "name": "Растение в горшке",
+            "slug": "rasteniye-v-gorshke",
+            "description": "Живое растение в стильном горшке для декора.",
+            "image": "",
+            "price": "25.00",
+            "discount": "0.00",
+            "quantity": 18,
+            "category": 12
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 14,
+        "fields": {
+            "name": "Картина на стену",
+            "slug": "kartina-na-stenu",
+            "description": "Оригинальная картина для украшения стен в спальне.",
+            "image": "",
+            "price": "50.00",
+            "discount": "10.00",
+            "quantity": 7,
+            "category": 12
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 15,
+        "fields": {
+            "name": "Декор для стен",
+            "slug": "dekor-dlya-sten",
+            "description": "Украшение для стен в виде декоративных панелей.",
+            "image": "",
+            "price": "60.00",
+            "discount": "15.00",
+            "quantity": 10,
+            "category": 12
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 16,
+        "fields": {
+            "name": "Тумба для ванной",
+            "slug": "tumba-dlya-vannoj",
+            "description": "Тумба с полками для хранения в ванной комнате.",
+            "image": "",
+            "price": "85.00",
+            "discount": "0.00",
+            "quantity": 4,
+            "category": 8
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 17,
+        "fields": {
+            "name": "Офисное кресло",
+            "slug": "ofisnoe-kreslo",
+            "description": "Эргономичное офисное кресло с подлокотниками.",
+            "image": "",
+            "price": "130.00",
+            "discount": "20.00",
+            "quantity": 5,
+            "category": 10
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 18,
+        "fields": {
+            "name": "Шторы для гостиной",
+            "slug": "shtory-dlya-gostinoj",
+            "description": "Тканевые шторы для гостиной комнаты.",
+            "image": "",
+            "price": "40.00",
+            "discount": "5.00",
+            "quantity": 12,
+            "category": 9
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 19,
+        "fields": {
+            "name": "Стол для кухни",
+            "slug": "stol-dlya-kuhni",
+            "description": "Компактный стол для кухни из дерева.",
+            "image": "",
+            "price": "70.00",
+            "discount": "0.00",
+            "quantity": 20,
+            "category": 7
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 20,
+        "fields": {
+            "name": "Полка для ванной",
+            "slug": "polka-dlya-vannoj",
+            "description": "Полка для ванной комнаты для хранения принадлежностей.",
+            "image": "",
+            "price": "25.00",
+            "discount": "0.00",
+            "quantity": 8,
+            "category": 8
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 21,
+        "fields": {
+            "name": "Ваза для цветов",
+            "slug": "vaza-dlya-cvetov",
+            "description": "Стильная ваза для цветов, идеально подходящая для декора.",
+            "image": "",
+            "price": "20.00",
+            "discount": "0.00",
+            "quantity": 15,
+            "category": 12
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 22,
+        "fields": {
+            "name": "Обеденный стол",
+            "slug": "obedennyj-stol",
+            "description": "Стол для обеда с возможностью увеличения размера.",
+            "image": "",
+            "price": "220.00",
+            "discount": "10.00",
+            "quantity": 10,
+            "category": 7
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 23,
+        "fields": {
+            "name": "Полка для обуви",
+            "slug": "polka-dlya-obuvi",
+            "description": "Полка для обуви из металла для прихожей.",
+            "image": "",
+            "price": "40.00",
+            "discount": "0.00",
+            "quantity": 25,
+            "category": 11
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 24,
+        "fields": {
+            "name": "Стеллаж для книг",
+            "slug": "stellazh-dlya-knig",
+            "description": "Стеллаж для книг из металла для домашнего кабинета.",
+            "image": "",
+            "price": "90.00",
+            "discount": "10.00",
+            "quantity": 6,
+            "category": 9
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 25,
+        "fields": {
+            "name": "Коврик для ванной",
+            "slug": "kovrik-dlya-vannoj",
+            "description": "Мягкий коврик для ванной комнаты.",
+            "image": "",
+            "price": "15.00",
+            "discount": "0.00",
+            "quantity": 12,
+            "category": 8
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 26,
+        "fields": {
+            "name": "Тумба под телевизор",
+            "slug": "tumba-pod-televizor",
+            "description": "Тумба для телевизора с полками для техники.",
+            "image": "",
+            "price": "100.00",
+            "discount": "20.00",
+            "quantity": 8,
+            "category": 9
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 27,
+        "fields": {
+            "name": "Полка для кухни",
+            "slug": "polka-dlya-kuhni",
+            "description": "Полка для кухни для хранения посуды и кухонных принадлежностей.",
+            "image": "",
+            "price": "30.00",
+            "discount": "0.00",
+            "quantity": 12,
+            "category": 7
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 28,
+        "fields": {
+            "name": "Декоративные подушки",
+            "slug": "dekorativnye-podushki",
+            "description": "Набор декоративных подушек для дивана.",
+            "image": "",
+            "price": "35.00",
+            "discount": "0.00",
+            "quantity": 14,
+            "category": 9
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 29,
+        "fields": {
+            "name": "Комплект штор",
+            "slug": "komplekt-shtor",
+            "description": "Комплект штор для спальни.",
+            "image": "",
+            "price": "50.00",
+            "discount": "0.00",
+            "quantity": 10,
+            "category": 8
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 30,
+        "fields": {
+            "name": "Зеркало настенное",
+            "slug": "zerkalo-nastennoye",
+            "description": "Настенное зеркало в рамке для ванной комнаты.",
+            "image": "",
+            "price": "60.00",
+            "discount": "5.00",
+            "quantity": 6,
+            "category": 12
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 31,
+        "fields": {
+            "name": "Телевизор",
+            "slug": "televizor",
+            "description": "Современный телевизор с диагональю 55 дюймов.",
+            "image": "",
+            "price": "500.00",
+            "discount": "10.00",
+            "quantity": 3,
+            "category": 9
+        }
+    },
+    {
+        "model": "catalog.products",
+        "pk": 32,
+        "fields": {
+            "name": "Скейтборд",
+            "slug": "skeytbord",
+            "description": "Легкий скейтборд для начинающих.",
+            "image": "",
+            "price": "70.00",
+            "discount": "0.00",
+            "quantity": 15,
+            "category": 12
+        }
+    }
+]
