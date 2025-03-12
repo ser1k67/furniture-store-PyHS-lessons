@@ -5,7 +5,10 @@ from django.shortcuts import get_list_or_404, render
 from catalog.models import Categories, Products
 
 # Create your views here.
-def catalog(request, category_slug, page=1):
+def catalog(request, category_slug):
+    # параметры get 
+    page = request.GET.get('page', 1)
+
     # отображение карточек товаров по категориям
     if category_slug == "vse-tovary":
         goods = Products.objects.all()
