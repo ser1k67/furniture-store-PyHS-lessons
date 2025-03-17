@@ -43,7 +43,7 @@ class Products(models.Model):
     def display_id(self):
         return f'{self.id:05}'
     
-    
     # display price with discount in goods from catalog pages
     def display_discount_price(self):
         return round(self.price - (self.price * self.discount / 100), 2)
+    
