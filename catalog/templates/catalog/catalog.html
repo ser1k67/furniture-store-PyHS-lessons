@@ -1,5 +1,6 @@
 {% extends "main/base.html" %}
 {% load static %}
+{% load catalog_tags %}
 
 {% block content %}
 <div class="container">
@@ -87,15 +88,15 @@
                 <ul class="pagination justify-content-center my-4">
                     <div class="custom-shadow d-flex">
                         <li class="page-item {% if not goods.has_previous %}disabled{% endif %}">
-                            <a class="page-link" href="{% if goods.has_previous %}?page={{ goods.previous_page_number }}{% endif %}">Назад</a>
+                            <a class="page-link" href="{% if goods.has_previous %}?{% change_params page=goods.previous_page_number %}{% endif %}">Назад</a>
                         </li>
-                        
+
                         {% for page in goods.paginator.page_range %}
-                            <li class="page-item {% if goods.number == page %}active{% endif %}"><a class="page-link" href="?page={{page}}">{{page}}</a></li>
+                            <li class="page-item {% if goods.number == page %}active{% endif %}"><a class="page-link" href="?{% change_params page=page %}">{{page}}</a></li>
                         {% endfor %}
 
                         <li class="page-item {% if not goods.has_next %}disabled{% endif %}">
-                            <a class="page-link" href="{% if goods.has_next %}?page={{ goods.next_page_number }}{% endif %}">Следующая</a>
+                            <a class="page-link" href="{% if goods.has_next %}?{% change_params page=goods.next_page_number %}{% endif %}">Следующая</a>
                         </li>
                     </div>
                 </ul>
